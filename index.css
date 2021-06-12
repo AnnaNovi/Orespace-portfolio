@@ -1,1 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  color: #999999; }
+
+.container {
+  max-width: 1200px;
+  margin-left: 120px;
+  margin-right: 120px; }
+  .container ul {
+    padding-left: 0; }
+    .container ul li {
+      list-style-type: none; }
+
+*:focus {
+  outline: webkit focus ring color auto 0px !important; }
+
+nav {
+  padding: 24px 0; }
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  nav .logo {
+    display: flex; }
+    nav .logo .logo-img {
+      height: 20px;
+      width: 20px; }
+      nav .logo .logo-img svg {
+        height: 100%;
+        width: 100%; }
+        nav .logo .logo-img svg use {
+          fill: #C4C4C4; }
+    nav .logo .logo-name {
+      margin-left: 10px; }
+  nav ul, nav .signed {
+    display: flex;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px; }
+    nav ul li, nav .signed li {
+      margin-right: 56px; }
+      nav ul li:last-child, nav .signed li:last-child {
+        margin-right: 0; }
+      nav ul li.active, nav .signed li.active {
+        color: #C4C4C4; }
+    nav ul .sgn-up, nav .signed .sgn-up {
+      background: #C4C4C4;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF;
+      padding: 11px 32px;
+      margin-left: 40px; }
+  nav .signed {
+    align-items: center; }
+
+.block-header {
+  padding: 48px 0; }
+  .block-header .container {
+    display: flex;
+    justify-content: space-between; }
+  .block-header .text-info {
+    margin-top: auto;
+    margin-bottom: auto; }
+    .block-header .text-info span {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #C4C4C4; }
+    .block-header .text-info h1 {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 56px;
+      color: #333333;
+      margin-top: 8px;
+      margin-bottom: 16px; }
+    .block-header .text-info p {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px; }
+    .block-header .text-info .line-btn {
+      margin-top: 32px; }
+      .block-header .text-info .line-btn a {
+        padding: 16px 24px;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px; }
+        .block-header .text-info .line-btn a.srch {
+          background: #C4C4C4;
+          color: #FFFFFF;
+          margin-right: 16px; }
+        .block-header .text-info .line-btn a.prpt {
+          border: 1px solid #C4C4C4;
+          box-sizing: border-box;
+          color: #C4C4C4; }
+  .block-header .photo-ark-line {
+    display: flex;
+    justify-content: space-between;
+    position: relative; }
+    .block-header .photo-ark-line .photo-ark {
+      width: 360px;
+      height: 496px;
+      background: #C4C4C4;
+      border-radius: 320px 320px 0px 0px; }
+      .block-header .photo-ark-line .photo-ark .border-line {
+        width: 376px;
+        height: 496px;
+        background: none;
+        border-radius: 320px 320px 0px 0px;
+        border: 1px solid #C4C4C4;
+        position: absolute;
+        bottom: 0; }
+      .block-header .photo-ark-line .photo-ark .dots {
+        position: absolute;
+        width: 72px;
+        height: 56px; }
+        .block-header .photo-ark-line .photo-ark .dots svg {
+          width: 100%;
+          height: 100%; }
+          .block-header .photo-ark-line .photo-ark .dots svg use {
+            fill: #F2F2F2; }
+      .block-header .photo-ark-line .photo-ark.photo-ark-top {
+        margin-right: 16px;
+        margin-left: 62px; }
+        .block-header .photo-ark-line .photo-ark.photo-ark-top .border-line {
+          right: 0; }
+        .block-header .photo-ark-line .photo-ark.photo-ark-top .dots {
+          bottom: 0;
+          left: 62px; }
+      .block-header .photo-ark-line .photo-ark.photo-ark-bottom {
+        margin-top: 110px; }
+        .block-header .photo-ark-line .photo-ark.photo-ark-bottom .dots {
+          top: 0;
+          right: 0; }
+
+.block-services span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #C4C4C4; }
+
+.block-services h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 56px;
+  color: #333333; }
+
+.block-services .exmpl-line .exmpl-serv {
+  text-align: center; }
+  .block-services .exmpl-line .exmpl-serv .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333; }
+  .block-services .exmpl-line .exmpl-serv .descr {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; }
 
