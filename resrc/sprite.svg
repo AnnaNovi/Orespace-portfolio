@@ -26,5 +26,33 @@
         <circle cx="52" cy="52" r="4" fill="#F2F2F2"/>
         <circle cx="68" cy="52" r="4" fill="#F2F2F2"/>
     </symbol>
-    
+    <symbol id="dollar" viewBox="0 0 24 24" fill="none">
+        <path d="M13.79 8.68999C13.79 8.68999 12.77 7.78999 10.98 8.41999C9.32999 8.98999 9.40999 11.25 11.91 11.85" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.87 14.9699C9.87 14.9699 10.89 15.8699 12.68 15.2399C14.34 14.6599 14.26 12.3999 11.75 11.7999" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.01 8.19998V6.72998" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.01 16.93V15.46" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M11.83 21.06C16.9276 21.06 21.06 16.9276 21.06 11.83C21.06 6.73239 16.9276 2.59998 11.83 2.59998C6.73242 2.59998 2.60001 6.73239 2.60001 11.83C2.60001 16.9276 6.73242 21.06 11.83 21.06Z" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="secur" viewBox="0 0 24 24" fill="none">
+        <path d="M14.37 18.57L11.8 19.99L9.23001 18.56C6.37001 16.98 4.60001 13.97 4.60001 10.7V3.59998H18.99V10.7C18.99 13.97 17.22 16.98 14.37 18.57Z" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.13 10.61L11.16 12.65L14.47 9.34998" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="clock" viewBox="0 0 18 18" fill="none">
+        <circle cx="9" cy="9" r="8.4" stroke="#C4C4C4" stroke-width="1.2"/>
+        <path d="M9 5V9.63898L12 11" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="wifi" viewBox="0 0 13 10" fill="none">
+        <path d="M6.86655 9.7866C7.24947 9.7866 7.55988 9.47618 7.55988 9.09327C7.55988 8.71035 7.24947 8.39993 6.86655 8.39993C6.48363 8.39993 6.17322 8.71035 6.17322 9.09327C6.17322 9.47618 6.48363 9.7866 6.86655 9.7866Z" fill="#C4C4C4"/>
+        <path d="M9.00656 7.27992C8.49323 6.66659 7.73323 6.27325 6.86656 6.27325C5.9999 6.27325 5.2399 6.66659 4.72656 7.27992" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10.6401 5.13325C9.73344 4.06658 8.38011 3.37991 6.86678 3.37991C5.35344 3.37991 4.00011 4.05991 3.09344 5.13325" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.3334 3.27328C11.0201 1.71994 9.06008 0.733276 6.86675 0.733276C4.67342 0.733276 2.71342 1.71994 1.40009 3.27328" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="family" viewBox="0 0 15 13" fill="none">
+        <path d="M11.4456 5.35924C12.1362 4.46895 11.9742 3.18744 11.084 2.49691C10.1937 1.80638 8.91216 1.96832 8.22163 2.8586C7.5311 3.74889 7.69303 5.0304 8.58332 5.72093C9.47361 6.41146 10.7551 6.24952 11.4456 5.35924Z" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5.89319 11.5732C5.89319 9.39988 7.65985 7.63321 9.83319 7.63321C12.0065 7.63321 13.7732 9.39988 13.7732 11.5732" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4.7426 5.39923C5.11481 4.70475 4.85357 3.84002 4.15909 3.46781C3.46461 3.09559 2.59988 3.35683 2.22767 4.05131C1.85545 4.74579 2.1167 5.61052 2.81117 5.98273C3.50565 6.35495 4.37038 6.09371 4.7426 5.39923Z" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0.733398 10.9403C0.733398 9.42025 1.96673 8.18692 3.48673 8.18692C4.6134 8.18692 5.58007 8.86025 6.00673 9.83359" stroke="#C4C4C4" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
 </svg>
+
+
