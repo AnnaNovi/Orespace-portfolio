@@ -82,11 +82,46 @@
       border-radius: 10px;
       padding: 15px 69px; }
 
+.card-review {
+  background: #FFFFFF;
+  box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.03);
+  border-radius: 10px;
+  width: 588px;
+  padding-bottom: 24px;
+  padding-left: 38px;
+  padding-right: 38px;
+  text-align: center;
+  margin-top: 30px; }
+  .card-review .rev-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    margin: -28px auto 16px auto; }
+  .card-review .rev-author {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333; }
+  .card-review .rev-star {
+    margin-bottom: 15px;
+    margin-top: 5px; }
+    .card-review .rev-star svg {
+      width: 12px;
+      height: 12px; }
+  .card-review .rev-descript {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center; }
+
 nav {
   padding: 24px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 120px; }
   nav .logo {
     display: flex; }
     nav .logo .logo-img {
@@ -103,9 +138,11 @@ nav {
     display: flex;
     font-weight: normal;
     font-size: 16px;
-    line-height: 21px; }
+    line-height: 21px;
+    padding-left: 0; }
     nav ul li, nav .signed li {
-      margin-right: 56px; }
+      margin-right: 56px;
+      list-style-type: none; }
       nav ul li:last-child, nav .signed li:last-child {
         margin-right: 0; }
       nav ul li.active, nav .signed li.active {
@@ -310,6 +347,223 @@ nav {
     margin-right: 0;
     margin-bottom: 0; }
 
+.block-offers .swiper-block .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin: 0 8px;
+  background: #C4C4C4; }
+
+.block-blog .container {
+  display: flex;
+  justify-content: space-between; }
+  .block-blog .container .left-side {
+    margin-right: 64px; }
+    .block-blog .container .left-side .img-blog {
+      width: 100%;
+      height: 520px;
+      background: #C4C4C4;
+      border-radius: 10px;
+      margin-bottom: 44px;
+      position: relative; }
+      .block-blog .container .left-side .img-blog svg {
+        width: 72px;
+        height: 56px; }
+        .block-blog .container .left-side .img-blog svg use {
+          fill: #F2F2F2; }
+      .block-blog .container .left-side .img-blog .dots-top {
+        position: absolute;
+        top: -24px;
+        left: -32px; }
+      .block-blog .container .left-side .img-blog .dots-btn {
+        position: absolute;
+        bottom: -28px;
+        right: -32px; }
+      .block-blog .container .left-side .img-blog .author-blog {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #FFFFFF;
+        border-radius: 0px 0px 0px 10px;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between; }
+        .block-blog .container .left-side .img-blog .author-blog .author-photo {
+          width: 40px;
+          height: 40px;
+          margin-right: 16px;
+          background: #C4C4C4;
+          border-radius: 50%; }
+        .block-blog .container .left-side .img-blog .author-blog .author-about .name {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #333333; }
+        .block-blog .container .left-side .img-blog .author-blog .author-about .descript {
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 16px; }
+    .block-blog .container .left-side h3 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 40px;
+      color: #333333; }
+    .block-blog .container .left-side span {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px; }
+    .block-blog .container .left-side a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #C4C4C4;
+      display: inline-flex;
+      margin-left: 10px; }
+  .block-blog .container .right-side span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #C4C4C4; }
+  .block-blog .container .right-side h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333; }
+  .block-blog .container .right-side .blog-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px; }
+    .block-blog .container .right-side .blog-column .article {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px;
+      background: #FFFFFF;
+      box-shadow: 10px 32px 72px rgba(0, 0, 0, 0.03);
+      border-radius: 10px;
+      margin-bottom: 24px; }
+      .block-blog .container .right-side .blog-column .article:last-child {
+        margin-bottom: 0; }
+      .block-blog .container .right-side .blog-column .article .img {
+        width: 88px;
+        height: 88px;
+        background: #C4C4C4;
+        border-radius: 10px;
+        margin-right: 16px; }
+      .block-blog .container .right-side .blog-column .article .descript .title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 12px; }
+      .block-blog .container .right-side .blog-column .article .descript span {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px; }
+
+.block-reviws {
+  background: #FAFAFA;
+  text-align: center; }
+  .block-reviws .container {
+    margin-bottom: 0; }
+  .block-reviws span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #C4C4C4; }
+  .block-reviws h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333;
+    margin-top: 8px;
+    margin-bottom: 46px; }
+  .block-reviws .swiper-review .swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px; }
+    .block-reviws .swiper-review .swiper-slide .card-review {
+      margin-right: 24px; }
+      .block-reviws .swiper-review .swiper-slide .card-review:last-child {
+        margin-right: 0; }
+  .block-reviws .swiper-review .swiper-pagination .swiper-pagination-bullet {
+    width: 24px;
+    height: 4px;
+    border-radius: 24px;
+    margin: 0 4px;
+    background: #C4C4C4; }
+  .block-reviws a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C4C4C4;
+    padding: 16px 24px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: inline-block; }
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 32px 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+  footer .container .info-column .logo {
+    display: flex;
+    margin-bottom: 24px; }
+    footer .container .info-column .logo .logo-img {
+      height: 20px;
+      width: 20px; }
+      footer .container .info-column .logo .logo-img svg {
+        height: 100%;
+        width: 100%; }
+        footer .container .info-column .logo .logo-img svg use {
+          fill: #C4C4C4; }
+    footer .container .info-column .logo .logo-name {
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      color: #C4C4C4; }
+  footer .container .info-column span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; }
+  footer .container .info-column .mail, footer .container .info-column .phone {
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px; }
+    footer .container .info-column .mail svg, footer .container .info-column .phone svg {
+      margin-bottom: -5px; }
+  footer .container .info-column svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; }
+  footer .container .info-column.long-info-column {
+    width: 30%; }
+  footer .container .info-column ul li {
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px; }
+    footer .container .info-column ul li.title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #333333; }
+
+.footer-bottom {
+  text-align: center;
+  margin-bottom: 24px; }
+
 </style><link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/></head><body><div class="wrapper"><!--mixins--><nav><div class="logo"> <div class="logo-img"> <svg class="logo icon"><use xlink:href="./resrc/sprite.svg#logo"></use></svg></div><div class="logo-name">Orespace</div></div><ul> <li> <a class="active" href="">Home</a></li><li> <a href="">About Us</a></li><li> <a href="">Our Service</a></li><li> <a href="">Contact</a></li></ul><div class="signed"> <a class="sgn-in" href="">Sign In</a><a class="sgn-up" href="">Sign Up</a></div></nav><div class="block-header"> <div class="container"><div class="text-info"> <span>Dream home</span><h1>Find Your Perfect Future Home</h1><p>Find a home or space from our search bar and enter your spesific location, property type and price range and search your dream home for your life forever</p><div class="line-btn"> <a class="srch" href="">Search Now</a><a class="prpt" href="">View Property</a></div></div><div class="photo-ark-line"><div class="photo-ark photo-ark-top"><div class="border-line"></div><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="photo-ark photo-ark-bottom"><div class="border-line"></div><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div></div></div></div><div class="block-services"> <div class="container"><span>Why Choose Us</span><h2>We Are Providing Best Services</h2><div class="exmpl-line"> <div class="exmpl-serv"><svg class="clock icon"><use xlink:href="./resrc/sprite.svg#clock"></use></svg><div class="name">Everytime Consultation</div><div class="descr">You can contact us everytime for discuss</div></div><div class="exmpl-serv"><svg class="dollar icon"><use xlink:href="./resrc/sprite.svg#dollar"></use></svg><div class="name">Best Price Offers</div><div class="descr">Saving your money to be useful</div></div><div class="exmpl-serv"><svg class="secur icon"><use xlink:href="./resrc/sprite.svg#secur"></use></svg><div class="name">Trusted and Secure</div><div class="descr">Buy home with private information</div></div></div></div></div><div class="block-property"> <div class="container"><div class="text-info"><span>How It Works</span><h3>We Are Ready To Help You Get Home</h3><div class="exmpl-line"> <div class="exmpl-prpt"><div class="name">Everytime Consultation</div><div class="descr">You can contact us everytime for discuss</div></div><div class="exmpl-prpt"><div class="name">Best Price Offers</div><div class="descr">Saving your money to be useful</div></div><div class="exmpl-prpt"><div class="name">Trusted and Secure</div><div class="descr">Buy home with private information</div></div></div></div><div class="photo-sqr"><div class="dots-top"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="dots-btn"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div></div></div></div><div class="block-offers"> <div class="container"><span>Featured Property</span><h3>Special Offers From Us</h3><div class="swiper-container swiper-block"><div class="swiper-wrapper"><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div></div><div class="swiper-pagination"></div></div></div></div></div><script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><script src="./resrc/features.js"> </script></body></html>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/></head><body><div class="wrapper"><!--mixins--><nav><div class="logo"> <div class="logo-img"> <svg class="logo icon"><use xlink:href="./resrc/sprite.svg#logo"></use></svg></div><div class="logo-name">Orespace</div></div><ul> <li> <a class="active" href="">Home</a></li><li> <a href="">About Us</a></li><li> <a href="">Our Service</a></li><li> <a href="">Contact</a></li></ul><div class="signed"> <a class="sgn-in" href="">Sign In</a><a class="sgn-up" href="">Sign Up</a></div></nav><div class="block-header"> <div class="container"><div class="text-info"> <span>Dream home</span><h1>Find Your Perfect Future Home</h1><p>Find a home or space from our search bar and enter your spesific location, property type and price range and search your dream home for your life forever</p><div class="line-btn"> <a class="srch" href="">Search Now</a><a class="prpt" href="">View Property</a></div></div><div class="photo-ark-line"><div class="photo-ark photo-ark-top"><div class="border-line"></div><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="photo-ark photo-ark-bottom"><div class="border-line"></div><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div></div></div></div><div class="block-services"> <div class="container"><span>Why Choose Us</span><h2>We Are Providing Best Services</h2><div class="exmpl-line"> <div class="exmpl-serv"><svg class="clock icon"><use xlink:href="./resrc/sprite.svg#clock"></use></svg><div class="name">Everytime Consultation</div><div class="descr">You can contact us everytime for discuss</div></div><div class="exmpl-serv"><svg class="dollar icon"><use xlink:href="./resrc/sprite.svg#dollar"></use></svg><div class="name">Best Price Offers</div><div class="descr">Saving your money to be useful</div></div><div class="exmpl-serv"><svg class="secur icon"><use xlink:href="./resrc/sprite.svg#secur"></use></svg><div class="name">Trusted and Secure</div><div class="descr">Buy home with private information</div></div></div></div></div><div class="block-property"> <div class="container"><div class="text-info"><span>How It Works</span><h3>We Are Ready To Help You Get Home</h3><div class="exmpl-line"> <div class="exmpl-prpt"><div class="name">Everytime Consultation</div><div class="descr">You can contact us everytime for discuss</div></div><div class="exmpl-prpt"><div class="name">Best Price Offers</div><div class="descr">Saving your money to be useful</div></div><div class="exmpl-prpt"><div class="name">Trusted and Secure</div><div class="descr">Buy home with private information</div></div></div></div><div class="photo-sqr"><div class="dots-top"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="dots-btn"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div></div></div></div><div class="block-offers"> <div class="container"><span>Featured Property</span><h3>Special Offers From Us</h3><div class="swiper-container swiper-block"><div class="swiper-wrapper"><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div><div class="swiper-slide"><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Green Hill Raya Segog City No. 691 </div><div class="card-price"><span>$ 200,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Nippah Valley Residence No. 560 Jawa Barat</div><div class="card-price"><span>$ 222,00</span></div><div class="card-descript"><span>4</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Cijulang Raya Residence No. 680 Bandung</div><div class="card-price"><span>$ 224,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div><div class="card-line"><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Perumahan Gunung Walat Cosmo City No. 20 </div><div class="card-price"><span>$ 228,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>4</span><span>&nbsp Bedroom |&nbsp </span><span>1</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div><div class="card-mixin"><div class="card-img"></div><div class="card-info"><div class="tags"> <div class="tags-wifi tag-but"><svg class="wifi icon"><use xlink:href="./resrc/sprite.svg#wifi"></use></svg><span>Free Wifi</span></div><div class="tags-family tag-but"><svg class="family icon"><use xlink:href="./resrc/sprite.svg#family"></use></svg><span>Family</span></div></div><div class="card-name">Green Valley Residence Jawa Barat No. 78</div><div class="card-price"><span>$ 226,00</span></div><div class="card-descript"><span>3</span><span>&nbsp Building |&nbsp </span><span>2</span><span>&nbsp Bedroom |&nbsp </span><span>2</span><span>&nbsp Bathroom</span></div><a>Show more details</a></div></div></div></div></div><div class="swiper-pagination"></div></div></div></div><div class="block-blog"> <div class="container"><div class="left-side"><div class="img-blog"><div class="dots-top"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="dots-btn"><svg class="dots icon"><use xlink:href="./resrc/sprite.svg#dots"></use></svg></div><div class="author-blog"><div class="author-photo"></div><div class="author-about"><div class="name">Alberto Rivaldo</div><div class="descript">UI UX Designer</div></div></div></div><h3>Perumahan yang paling murah di Sukabumi, yuk segera booking rumah impianmu bersama kami</h3><span>Find a home or space from our search bar and enter your spesific location, property type and price range and more detailed for you and my friend . . . . .</span><a href="">Read More</a></div><div class="right-side"> <span>Our Blog</span><h3>Always Check Our Latest Blog For Update Info</h3><div class="blog-column"><div class="article"><div class="img"> </div><div class="descript"> <div class="title">Cara merawat rumah agar selalu bersih dan enak di pandang oleh orang lain</div><span>Neymar Da Silva Junior</span></div></div><div class="article"><div class="img"> </div><div class="descript"> <div class="title">How to make a design interior for your dream home and your apartment</div><span>James Ricardo Alexander</span></div></div><div class="article"><div class="img"> </div><div class="descript"> <div class="title">Membuat rumah dengan harga murah dan kualitas yang sangat bagus</div><span>Alexander Johnson</span></div></div><div class="article"><div class="img"> </div><div class="descript"> <div class="title">Kumpulan design rumah yang cocok untuk pengantin yang baru menikah</div><span>Cristiano Martinus Alexander</span></div></div></div></div></div></div><div class="block-reviws"><div class="container"><span>Testimonial</span><h2>What Our Customer Are Saying</h2><div class="swiper-container swiper-review"><div class="swiper-wrapper"><div class="swiper-slide"><div class="card-review"><div class="rev-img"></div><div class="rev-author">Alexander Martinus</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">We found Orespace to be highly organized and professional from start to finish. Their process of having all key team members sit down together with clients total what's wanted, and then having all return to sit down and discuss</div></div><div class="card-review"><div class="rev-img"></div><div class="rev-author">Rahmat Muhammad Aliyudin</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">Kami menemukan Orespace sangat terorganisir dan profesional dari awal dan akhir. Proses mereka meminta semua anggota tim kunci duduk bersama dengan klien total apa yang diinginkan, dan kemudian semua kembali duduk dan berdiskusi</div></div></div><div class="swiper-slide"><div class="card-review"><div class="rev-img"></div><div class="rev-author">Alexander Martinus</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">We found Orespace to be highly organized and professional from start to finish. Their process of having all key team members sit down together with clients total what's wanted, and then having all return to sit down and discuss</div></div><div class="card-review"><div class="rev-img"></div><div class="rev-author">Rahmat Muhammad Aliyudin</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">Kami menemukan Orespace sangat terorganisir dan profesional dari awal dan akhir. Proses mereka meminta semua anggota tim kunci duduk bersama dengan klien total apa yang diinginkan, dan kemudian semua kembali duduk dan berdiskusi</div></div></div><div class="swiper-slide"><div class="card-review"><div class="rev-img"></div><div class="rev-author">Alexander Martinus</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">We found Orespace to be highly organized and professional from start to finish. Their process of having all key team members sit down together with clients total what's wanted, and then having all return to sit down and discuss</div></div><div class="card-review"><div class="rev-img"></div><div class="rev-author">Rahmat Muhammad Aliyudin</div><div class="rev-star"><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg><svg class="star icon"><use xlink:href="./resrc/sprite.svg#star"></use></svg></div><div class="rev-descript">Kami menemukan Orespace sangat terorganisir dan profesional dari awal dan akhir. Proses mereka meminta semua anggota tim kunci duduk bersama dengan klien total apa yang diinginkan, dan kemudian semua kembali duduk dan berdiskusi</div></div></div></div><div class="swiper-pagination"></div></div><a href="">View More Reviews</a></div></div><footer> <div class="container"> <div class="info-column long-info-column"><div class="logo"> <div class="logo-img"> <svg class="logo icon"><use xlink:href="./resrc/sprite.svg#logo"></use></svg></div><div class="logo-name">Orespace</div></div><span>Find a home or space from our search bar and enter your spesific location, property type, and price</span><div class="mail"> <svg class="mail icon"><use xlink:href="./resrc/sprite.svg#mail"></use></svg><a href="mailto:ello@orespace.mail.com">Hello@orespace.mail.com</a></div><div class="phone"><svg class="phone icon"><use xlink:href="./resrc/sprite.svg#phone"></use></svg><a href="tel:+022-666-691-560">022-666-691-560</a></div></div><div class="info-column"><ul> <li class="title">Our Service</li><li> <a href="">Buy House</a></li><li> <a href="">Rent House</a></li><li> <a href="">Sell House</a></li></ul></div><div class="info-column"><ul> <li class="title">Support</li><li> <a href="">FAQ</a></li><li> <a href="">Terms</a></li><li> <a href="">Privacy</a></li></ul></div><div class="info-column"><ul> <li class="title">Social Media</li><li> <a href="">Youtube</a></li><li> <a href="">Instagram</a></li><li> <a href="">Twitter</a></li></ul></div></div></footer><div class="footer-bottom">Copyright @Orespace 2021 All Right Reserved</div></div><script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><script src="./resrc/features.js"> </script></body></html>
