@@ -23,6 +23,14 @@ a {
     .container ul li {
       list-style-type: none; }
 
+.swiper-container{
+  position: relative;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 *:focus {
   outline: webkit focus ring color auto 0px !important; }
 
