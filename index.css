@@ -644,7 +644,8 @@ header {
   margin-left: 64px; }
 
 .item_inner-mini {
-  padding: 16px; }
+  padding: 16px;
+  text-align: start; }
 
 .blog .line__item {
   flex-direction: row; }
@@ -758,6 +759,7 @@ header {
     background: #a43820; }
 
 .review-swiper {
+  padding-bottom: 48px !important;
   margin-bottom: 40px; }
 
 @media (max-width: 767px) {
