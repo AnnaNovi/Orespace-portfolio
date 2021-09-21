@@ -82,14 +82,14 @@ function blogSize(){
 }
 $(window).on('load resize',blogSize);
 
-function blogSize(){
+function buttonSize(){
   if ($(window).width() <= '1280'){
       $('.buttons-line_header').appendTo('.header-menu');
   } else {
     $('.buttons-line_header').appendTo('header');
   }
 }
-$(window).on('load resize',blogSize);
+$(window).on('load resize',buttonSize);
 
 $(document).ready(function(){
 	$('.header-burger').on('click', function(event){
