@@ -91,6 +91,14 @@ function buttonSize(){
 }
 $(window).on('load resize',buttonSize);
 
+function burgerSize(){
+  if ($(window).width() >= '1281'){
+      $('.header-menu').removeClass('header-menu_active');
+      $('.header-burger').removeClass('header-burger_active');
+  } else{}
+}
+$(window).on('load resize',burgerSize);
+
 $(document).ready(function(){
 	$('.header-burger').on('click', function(event){
     $(this).toggleClass('header-burger_active');
